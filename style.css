@@ -1,0 +1,57 @@
+p,ul{
+    font-family: 'Manrope', sans-serif;
+    background-color: rgb(9, 9, 32);
+    color: #F9F8FF;
+    font-size: 1.2em ;
+    font-weight: 
+}
+
+h2{
+    background-color: rgb(9, 9, 32);
+    color: #F9F8FF;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+  
+    font-size: 3em;
+    font-weight: ;
+    font-style: ;
+    text-align:justify;
+    text-decoration: none;
+}
+
+a{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+.ma-class1{
+background-color: white;
+}
+
+.ma-class{
+    background-color: #1F2039;
+}
+
+.ma-class2{
+    color: #A5B4FC;
+}
+
+a.ma-class1,.ma-class2{
+    color: #242424;
+}
+
+
+.portfolio, .projet{
+    background:linear-gradient(90deg, #8E86B5,#ACAEED);
+    font-family: 'Manrope', sans-serif;
+}
+
+
+
+
+
+

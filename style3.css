@@ -1,0 +1,92 @@
+@media screen and (max-width: 996px){
+
+        h1{
+                font-size: 2em;
+        }
+
+            .tarif{
+                display: none;
+            }
+
+            form,.contain{
+                max-width: 1000px;
+
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .contain div{
+                     padding-right: 0px;
+                     text-align: center;
+                     order: 2;
+            }
+
+            .contain div img{
+                order: 1;
+                margin-bottom: 20px;
+                width: 100%;
+            }
+
+
+            .projet-photos{
+                padding: 20px;                
+            }
+            
+            .projet-photos div{
+                flex-direction: column;
+                
+            }
+            
+            
+            .form-name-email{
+                display: flex;
+                flex-direction: column;
+                gap: 0px;
+            }
+            
+            .form-column{
+                flex: 1;
+                display: flex;
+                flex-direction: column ;
+                margin-bottom: 10px; 
+            }
+            
+
+            textarea{
+
+                width: 320px;
+            }
+
+           .grid-paysages,.grid-portrait{
+                flex-direction: column;
+                grid-template-columns: 1fr;
+                grid-template-rows: 300px;
+                }
+
+            section{
+                padding: 50px 20px 50px 20px;
+
+            }
+
+            .entete{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .entete a {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            header, footer{
+                background-color: white;
+                padding: 20px 20px;
+            }
+
+            .entete-logo{
+                    margin-bottom: 20px;
+
+            }
+
+}

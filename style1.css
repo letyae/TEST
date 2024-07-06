@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color: #1F2039;
+   }
+
+a{
+    color: #242424;
+    text-decoration: none;
+}
+
+em{
+    color: #a5b4fc; 
+    font-family: normal;
+}
+
+h1{
+    font-size: 3.5em;
+    color: #a5b4fc; 
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+
+
+p, li{
+    color: #F9F8FF;
+    font-size: 1.1em;
+}
+
+h2{
+    color: #F9F8FF;
+}
+
+.cta{
+    display: inline-block;
+    background:linear-gradient(#8E86B5,#ACAEED);
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    border-radius: 50px;
+    padding: 20px 30px;   
+}
+
+#cta{
+    position: relative;
+    left: 42%;  
+}
+
+.coeur{
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+  padding: 50px;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.cta:hover {
+    background:linear-gradient(#696484,#8788BA);
+    text-decoration:none;
+}
+
+a img:hover, div img:hover{
+    opacity: 0.5;
+}
+
+header, footer{
+    background-color: white;
+    padding: 20px 50px;
+}
+
+section{
+    padding: 80px;
+}
+
+
+ ul{
+    margin-top: 30px;
+}
+
+.pied-de-page{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pied-de-page-twitter{
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.entete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.entete-accueil{
+    margin-left: auto;
+    margin-right: 20px;
+   }
+
+.entete-portfolio{
+    margin-left: 10px;
+    }
+
+
+.contain{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+
+    gap: 80px;
+    }
+
+p {
+    margin-bottom: 30px ;
+}
+
+.projet-photos,.portrait,.portfolio{
+    background-color: white;
+    padding: 80px;
+    margin: 0px;
+}
+
+.projet-photos div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;   
+    margin-bottom: 15px;
+}
+
+.projet-photos h2,.portfolio h2, .portrait h2{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-weight:bold;
+
+    margin-bottom: 80px;
+    }
+
+.grid-paysages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+}
+
+.grid-portrait {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+}
+
+.grid-paysages img, .grid-portrait a img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.lien-conteneur-photo {
+    position: relative;
+  }
+
+.text-overlay{
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+
+.grid-portrait a:hover .text-overlay,.grid-paysages a:hover .text-overlay{
+    display: flex;
+}
